@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VaultofCodes - Certificate Verifier (Dev)</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <!-- Branding -->
+    <header class="brand-header">
+        <!-- Replace with your logo if needed -->
+        <img src="logo.png" alt="VaultofCodes Logo" class="brand-logo" />
+        <h1 class="brand-title">VaultofCodes</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <input id="identifier" type="text" placeholder="Enter Email or ID" />
+            <button onclick="verifyStudent()">Verify</button>
+        </div>
+
+        <div id="result"></div>
+        <div class="spinner hidden"></div>
+    </main>
+
+    <div id="toast"></div>
+
+    <script src="dummy.js"></script>
+</body>
+
+</html>
