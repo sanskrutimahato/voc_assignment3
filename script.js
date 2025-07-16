@@ -10,6 +10,7 @@ function verifyStudent() {
   // Simulate network delay and dummy data
   setTimeout(() => {
     const student = {
+      
       name: "John Doe",
       email: "john@example.com",
       mobile: "9876543210",
@@ -17,7 +18,7 @@ function verifyStudent() {
       college: "Dummy University",
       start: "01 June 2024",
       duration: "1 Month",
-      photo: "https://via.placeholder.com/130",
+      photo: "student.jpg",
       assignments: [true, false, true, true],
       certificate: "#"
     };
